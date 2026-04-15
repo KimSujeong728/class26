@@ -7,6 +7,17 @@
 </head>
 <body>
   <h1>하이퍼링크</h1>
+    <nav>
+    <ul>
+      <!-- li*6>a>{메뉴$} -->
+      <li><a href="#exam1">메뉴1</a></li>
+      <li><a href="#exam2">메뉴2</a></li>
+      <li><a href="#exam3">메뉴3</a></li>
+      <li><a href="#exam4">메뉴4</a></li>
+      <li><a href="#exam5">메뉴5</a></li>
+      <li><a href="#exam6">메뉴6</a></li>
+    </ul>
+  </nav>
   <hr>
   <h2>블록레벨과 인라인레벨</h2>
   <p>네이버</p>
@@ -81,12 +92,34 @@
   <h3>하단메뉴</h3>
   <nav>
     <ul>
-      
+      <!-- li*6>a>{메뉴$} -->
+      <li><a href="#exam1">메뉴1</a></li>
+      <li><a href="#exam2">메뉴2</a></li>
+      <li><a href="#exam3">메뉴3</a></li>
+      <li><a href="#exam4">메뉴4</a></li>
+      <li><a href="#exam5">메뉴5</a></li>
+      <li><a href="#exam6">메뉴6</a></li>
     </ul>
   </nav>
 
-
-
+<div class="goto">
+  <!-- 
+  북마크하는 태그 id="아이디"
+  호출 <a href="#아이디">내용</a>
+  -->
+  <a href="#">TOP</a>
+  <a href="#exam6">Bottom</a>
+</div>
+<style>
+ .goto{
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+ }
+ .goto>a{
+  display: block;
+ }
+</style>
 
 
 <style>
